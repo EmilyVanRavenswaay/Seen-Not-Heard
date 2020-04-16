@@ -1,0 +1,560 @@
+/* max-width and min-width is the size of the screen not the device----------- */
+/* max-device-width and min-device-width is the size of the device not the screen----------- */
+
+/* Desktop and Laptop, min-width equals the container size----------- */
+/* min-width, the minimum and up----------- */
+@media all 
+and (min-width: 900px) {
+
+	body {
+		font-family: 'Amatic SC'; /*sets a font face to the whole site*/
+		font-size: 1em; /*sets a font size to the whole site*/
+		line-height: 1em; /*sets a font height or leading to the whole site*/
+		color: black; /*sets a font color to the whole site*/
+	}
+	
+	.clear {
+        clear: left;
+    }
+	
+	nav a {
+		color: black;
+		text-decoration: none;	
+	}
+	
+	img {
+		width: 80%;
+	}
+	
+	header {
+		background-color: #eab725;
+		width: 100%;
+	}
+	
+	header img {
+		padding: 6% 10%;
+		margin-left: 10%;
+	}
+	
+	nav {
+		height: 300px;
+	}  
+	
+	* {
+		box-sizing: border-box;
+	}
+	
+	.about {
+		background-color: #d79a45;
+		width: 50%;
+		float: left;
+		padding: 8% 5%;
+	}
+	
+	.about img {
+		height: 200px;
+	}
+	
+	.read {
+		background-color: #eab7bb;
+		width: 50%;
+		float: left;
+		padding: 8% 11%;
+	}
+	
+	.read img{
+		height: 200px;
+	}
+	
+	.title {
+		width: 80%;
+		margin: 0 auto;
+	}
+	
+	.title img {
+		padding: 10% 25%;
+		width: 50%;
+	}
+	
+	#space {
+		padding-top: 15%;
+	}
+	
+	#mari img {
+		width: 50%;
+		position: absolute;
+		top: auto;
+	}
+	
+	#do {
+		width: 70%;
+		float: left;
+		background-color: #d79a45;
+		height: 90px;
+		margin-top: 32%;
+		border: none;
+	}
+	
+	.texts {
+		font-size: 1.5em;
+		line-height: 1.25em;
+		padding: 4% 8%;
+		width: 60%;
+	}
+	
+	#emma img {
+		width: 45%;
+		position: absolute;
+		top: auto;
+		right: 0;
+	}
+	
+	#emmatexts {
+		float: right;
+	}
+	
+	#p {
+		width: 70%;
+		float: right;
+		background-color: #eab7bb;
+		height: 90px;
+		margin-top: 28%;
+		border: none;
+	}
+	
+	#o {
+		width: 100%;
+		float: left;
+		background-color: #eab725;
+		height: 90px;
+		margin-top: 20%;
+		margin-bottom: 0px;
+		border: none;
+	}
+	
+	#book {
+		height: 900px;
+		margin-bottom: 175%;
+	}
+	
+	object {
+		height: 85%;
+		margin-top: 20%;
+		margin-bottom: 20%;
+	}
+	
+	#psd {
+		width: 100%;
+	}
+	
+	#psd img {
+		width: 100%;
+		padding: 0px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+	
+	#imageone {
+		float: left;
+		width: 50%;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+	
+	#imageone img {
+		padding: 0px;
+		margin-bottom: -1%;
+		margin-top: 0px;
+	}
+	
+	#imagetwo img {
+		padding: 0px;
+		margin-bottom: -1%;
+		margin-top: 0%;
+	}
+	
+	#imagetwo {
+		float: left;
+		width: 50%;
+		margin-bottom: 0%;
+		margin-top: 0%;
+	}
+	
+}
+
+/* iPads (portrait and landscape), max-width equals the container size of the desktop version, 2 columns----------- */
+/* min-width, the minimum and up----------- */
+/* max-width, the maximum and less----------- */
+@media all 
+and (min-width: 715px)
+and (max-width: 900px) {
+
+	body {
+		font-family: 'Amatic SC'; /*sets a font face to the whole site*/
+		font-size: 1em; /*sets a font size to the whole site*/
+		line-height: 1em; /*sets a font height or leading to the whole site*/
+		color: black; /*sets a font color to the whole site*/
+	}
+	
+	.clear {
+        clear: left;
+    }
+	
+	nav a {
+		color: black;
+		text-decoration: none;	
+	}
+	
+	img {
+		width: 80%;
+	}
+	
+	header {
+		background-color: #eab725;
+		width: 100%;
+	}
+	
+	header img {
+		padding: 6% 9%;
+		margin-left: 10%;
+	} 
+	
+	* {
+		box-sizing: border-box;
+	}
+	
+	.about {
+		background-color: #d79a45;
+		width: 50%;
+		float: left;
+		padding: 8% 5%;
+		height: 250px;
+	}
+	
+	.about img {
+		height: 125px;
+	}
+	
+	.read {
+		background-color: #eab7bb;
+		width: 50%;
+		float: left;
+		padding: 8.1% 11%;
+		height: 250px;
+	}
+	
+	.read img{
+		height: 125px;
+	}
+	
+	.title {
+		width: 80%;
+		margin: 0 auto;
+	}
+	
+	.title img {
+		padding: 10% 25%;
+		width: 50%;
+	}
+	
+	#space {
+		padding-top: 15%;
+	}
+	
+	#mari img {
+		width: 50%;
+		position: absolute;
+		top: auto;
+	}
+	
+	#do {
+		width: 70%;
+		float: left;
+		background-color: #d79a45;
+		height: 90px;
+		margin-top: 32%;
+		border: none;
+	}
+	
+	.texts {
+		font-size: 1.5em;
+		line-height: 1.25em;
+		padding: 4% 8%;
+		width: 60%;
+	}
+	
+	#emma img {
+		width: 45%;
+		position: absolute;
+		top: auto;
+		right: 0;
+	}
+	
+	#emmatexts {
+		float: right;
+	}
+	
+	#p {
+		width: 70%;
+		float: right;
+		background-color: #eab7bb;
+		height: 90px;
+		margin-top: 28%;
+		border: none;
+	}
+	
+	#o {
+		width: 100%;
+		float: left;
+		background-color: #eab725;
+		height: 90px;
+		margin-top: 20%;
+		margin-bottom: 0px;
+		border: none;
+	}
+	
+	#book {
+		height: 900px;
+		margin-bottom: 173%;
+	}
+	
+	object {
+		height: 85%;
+		margin-top: 20%;
+		margin-bottom: 20%;
+	}
+	
+	#psd {
+		width: 100%;
+	}
+	
+	#psd img {
+		width: 100%;
+		padding: 0px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+	
+	#imageone {
+		float: left;
+		width: 50%;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+	
+	#imageone img {
+		padding: 0px;
+		margin-bottom: -2%;
+		margin-top: 0px;
+	}
+	
+	#imagetwo img {
+		padding: 0px;
+		margin-bottom: -2%;
+		margin-top: 0%;
+	}
+	
+	#imagetwo {
+		float: left;
+		width: 50%;
+		margin-bottom: 0%;
+		margin-top: 0%;
+	}
+}
+
+/* Smartphones (portrait and landscape), max-width equals the min-width of the ipad version, 1 column----------- */
+/* max-width, the maximum and less----------- */
+@media all 
+and (max-width: 715px) {
+
+	body {
+		font-family: 'Amatic SC'; /*sets a font face to the whole site*/
+		font-size: 1em; /*sets a font size to the whole site*/
+		line-height: 1em; /*sets a font height or leading to the whole site*/
+		color: black; /*sets a font color to the whole site*/
+	}
+	
+	.clear {
+        clear: left;
+    }
+	
+	nav a {
+		color: black;
+		text-decoration: none;	
+	}
+	
+	img {
+		width: 80%;
+	}
+	
+	header {
+		background-color: #eab725;
+		width: 100%;
+	}
+	
+	header img {
+		padding: 6% 9%;
+		margin-left: 10%;
+	}
+	
+	* {
+		box-sizing: border-box;
+	}
+	
+	.about {
+		background-color: #d79a45;
+		width: 50%;
+		float: left;
+		padding: 8% 5%;
+		height: 200px;
+	}
+	
+	.about img {
+		height: 100px;
+	}
+	
+	.read {
+		background-color: #eab7bb;
+		width: 50%;
+		float: left;
+		padding: 8.1% 11%;
+		height: 200px;
+	}
+	
+	.read img{
+		height: 100px;
+	}
+	
+	.title {
+		width: 80%;
+		margin: 0 auto;
+	}
+	
+	.title img {
+		padding: 10% 25%;
+		width: 50%;
+	}
+	
+	#space {
+		padding-top: 15%;
+	}
+	
+	#mari img {
+		width: 50%;
+		position: absolute;
+		top: auto;
+	}
+	
+	#do {
+		width: 70%;
+		float: left;
+		background-color: #d79a45;
+		height: 90px;
+		margin-top: 32%;
+		border: none;
+	}
+	
+	.texts {
+		font-size: 1.5em;
+		line-height: 1.25em;
+		padding: 4% 8%;
+		width: 60%;
+	}
+	
+	#emma img {
+		width: 45%;
+		position: absolute;
+		top: auto;
+		right: 0;
+	}
+	
+	#emmatexts {
+		float: right;
+	}
+	
+	#p {
+		width: 70%;
+		float: right;
+		background-color: #eab7bb;
+		height: 90px;
+		margin-top: 28%;
+		border: none;
+	}
+	
+	#o {
+		width: 100%;
+		float: left;
+		background-color: #eab725;
+		height: 90px;
+		margin-top: 0%;
+		margin-bottom: 0px;
+		border: none;
+	}
+	
+	#book {
+		height: 900px;
+		margin-bottom: 176%;
+	}
+	
+	object {
+		height: 85%;
+		margin-top: 20%;
+		margin-bottom: 20%;
+	}
+	
+	#psd {
+		width: 100%;
+	}
+	
+	#psd img {
+		width: 100%;
+		padding: 0px;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+	
+	#imageone {
+		float: left;
+		width: 50%;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	}
+	
+	#imageone img {
+		padding: 0px;
+		margin-bottom: -1%;
+		margin-top: 0px;
+	}
+	
+	#imagetwo img {
+		padding: 0px;
+		margin-bottom: -1%;
+		margin-top: 0%;
+	}
+	
+	#imagetwo {
+		float: left;
+		width: 50%;
+		margin-bottom: 0%;
+		margin-top: 0%;
+	}
+	
+}
+
+
+
+
+
+
+
+
+/* Sizes of different screens */
+
+
+/* Smartphones (portrait and landscape) ----------- max-width: 500px and less */
+
+/* iPads (portrait and landscape) ----------- 500px–900px */
+
+/* Desktops and laptops ----------- min-width: 900-980px */
+
+/* Large screens ----------- min-width: 980px and up */
